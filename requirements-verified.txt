@@ -1,0 +1,6 @@
+# 2026-11-17 本机 stereo-vision 已安装版本。
+# 此记录证明本次导入版本，不代表完整标定或所有上游测试通过。
+numpy==2.4.6
+opencv-contrib-python==4.14.0.94
+PyYAML==6.0.3
+

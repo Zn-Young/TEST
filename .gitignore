@@ -1,0 +1,43 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 本机环境及编辑器临时文件
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+*.swp
+*.tmp
+Thumbs.db
+.DS_Store
+
+# 本机凭据及私有覆盖配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+calibration_settings.local.yaml
+
+# 采集图像及生成的标定结果；board 下已有 SVG/PNG 保留
+/frames/
+/frames_pair/
+/camera_parameters/
+/output/
+/captures/
+/datasets/
+/runs/
+
+# 日志与构建产物
+*.log
+build/
+dist/
+*.egg-info/
+

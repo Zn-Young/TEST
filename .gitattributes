@@ -1,0 +1,10 @@
+# 文本统一按 LF 存储，现有本地 CRLF 由 Git 正常转换
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+*.png binary
+

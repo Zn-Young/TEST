@@ -1,0 +1,37 @@
+# 双目相机标定配置。
+
+# 第一台相机的设备编号
+camera0: 
+
+# 第二台相机的设备编号(right camera)
+camera1: 1
+
+# 请求的采集图像宽度，单位：像素。
+frame_width: 1920
+
+# 请求的采集图像高度，单位：像素。
+frame_height: 1080
+
+# 每台相机在单目采集阶段保存的图像数量。
+mono_calibration_frames: 10
+
+# 双目采集阶段保存的图像对数。
+stereo_calibration_frames: 10
+
+# 预览缩小的除数；显示比例为 1/view_resize。
+view_resize: 1
+
+# 棋盘格单个正方形的实际边长。（单位要统一）
+checkerboard_box_size_scale: 
+
+# 本程序将此值作为 findChessboardCorners 的第一个尺寸参数：每行的内角点数。
+checkerboard_rows: 
+
+# 本程序将此值作为 findChessboardCorners 的第二个尺寸参数：每列的内角点数。
+checkerboard_columns: 
+
+# 开始采集后，每经过多少次成功采集循环保存一次；用于单目和双目采集。
+cooldown: 100
+
+#9x6 棋盘，页面宽度：210 毫米，页面高度：297 毫米（A4）
+#7X5 ChAruco 板，正方形尺寸：30 毫米，标记尺寸：15 毫米，ArUco 字典：DICT_5X5_100，页面宽度：210 毫米，页面高度：297 毫米（A4）
